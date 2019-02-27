@@ -144,3 +144,94 @@ footer img {
   width: auto;
   padding: 4rem 1rem 4rem 4rem;
 }
+.phone {
+  display: hidden;
+}
+@media only screen and (max-width: 950px) {
+  .container {
+    width: 100%;
+  }
+  header {
+    top: 0;
+  }
+  .banner {
+    height: 22rem;
+  }
+  .banner h1 {
+    top: 5rem;
+    right: 2rem;
+    padding: .75rem 4rem .75rem 4rem;
+    font-size: 1.33rem;
+  }
+  .phone {
+    display: none;
+  }
+}
+@media only screen and (max-width: 680px) {
+  .nophone {
+    display: none;
+  }
+  .phone {
+    display: inherit;
+  }
+  p {
+    font-size: .77rem;
+  }
+  .banner {
+    background-position: 20%;
+    height: 17rem;
+  }
+  .banner h1 {
+    width: 100%;
+    right: 0;
+    left: 0;
+    text-align: center;
+    padding: 1rem 0;
+    font-size: 1rem;
+    top: 9rem;
+    float: none;
+    margin: 0;
+    line-height: normal;
+  }
+  .middle {
+    flex-direction: column;
+    height: auto;
+    align-items: center;
+    margin-top: 3.77rem;
+    margin-bottom: 2.23rem;
+  }
+  .icon-box {
+    margin-bottom: 1.54rem;
+  }
+  .icon-box p {
+    margin-top: 1rem;
+  }
+  .exams {
+    width: 7rem;
+  }
+  .bottom {
+    flex-direction: column;
+  }
+  .box {
+    width: 100%;
+    margin-left: 0;
+    margin-bottom: 4rem;
+  }
+  .box h3 {
+    width: 100%;
+    text-align: center;
+    padding: 0.5rem 0;
+    margin-bottom: 1rem;
+  }
+  .box p {
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+  }
+  footer {
+    justify-content: center;
+    margin-top: 0;
+  }
+  footer img {
+    padding: 4rem 0;
+  }
+}
